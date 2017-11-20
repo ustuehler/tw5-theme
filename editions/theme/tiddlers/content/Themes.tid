@@ -1,11 +1,16 @@
 title: Themes
+list: tw5-material
+
+Featured themes:
+
+<<list-links '[list[]]'>>
 
 <$set name="author" value={{package.json##author}}>
 <$set name="authorHomepage" value={{package.json##authorHomepage}}>
 
-Themes authored by <a target="_" href=<<authorHomepage>>><<author>></a>:
+All themes authored by <a target="_" href=<<authorHomepage>>><<author>></a>:
 
-<<list-links '[all[tiddlers]field:author<author>]'>>
+<<list-links '[all[tiddlers]prefix[$:/themes/]field:author<author>]'>>
 
 </$set>
 </$set>

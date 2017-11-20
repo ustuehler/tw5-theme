@@ -1,0 +1,6 @@
+title: tw5-material
+caption: Material Edition
+url: https://ustuehler.github.io/tw5-material
+link: <a target="_" href={{!!url}}>{{!!caption}}</a>
+
+{{!!url}}
