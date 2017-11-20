@@ -3,8 +3,6 @@
     "plugins": [
         "tiddlywiki/highlight",
 	"ustuehler/caption",
-	"ustuehler/core",
-	"ustuehler/github",
 	"ustuehler/mdc",
 	"ustuehler/mdc-web-cdn",
 	"ustuehler/muuri"
