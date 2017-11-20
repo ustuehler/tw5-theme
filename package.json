@@ -26,6 +26,7 @@
     "theme"
   ],
   "author": "Uwe Stuehler",
+  "authorHomepage": "https://ustuehler.github.io",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/ustuehler/tw5-theme/issues"
