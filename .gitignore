@@ -1,12 +1,12 @@
 # Vim swap files
 .*.sw?
 
-# Created by "tiddlywiki --build"
-/editions/*/output/
-
 # Creted by npm(1)
 /node_modules/
 /npm-debug.log
+
+# Created by "tiddlywiki --build"
+/editions/*/output/
 
 # Created by the build script
 /index.html
@@ -16,8 +16,8 @@
 /test.html
 /test.out
 
-# Draft tiddlers
-Draft of *.tid
-
 # $:/StoryList
 $__StoryList.tid
+
+# Draft tiddlers
+Draft of *.tid

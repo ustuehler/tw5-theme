@@ -1,14 +1,18 @@
 title: Themes
-list: tw5-material
+list: material
 
 Featured themes:
 
-<<list-links '[list[]]'>>
+<ul>
+<$list filter="[list[]]">
+<li><a target="_blank" href={{!!url}}><$view field="caption"/></a></li>
+</$list>
+</ul>
 
 <$set name="author" value={{package.json##author}}>
 <$set name="authorHomepage" value={{package.json##authorHomepage}}>
 
-All themes authored by <a target="_" href=<<authorHomepage>>><<author>></a>:
+All themes authored by <a target="_blank" href=<<authorHomepage>>><<author>></a>:
 
 <<list-links '[all[tiddlers]prefix[$:/themes/]field:author<author>]'>>
 
