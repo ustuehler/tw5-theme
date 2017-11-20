@@ -1,0 +1,20 @@
+# Vim swap files
+.*.sw?
+
+# Created by "tiddlywiki --build"
+/editions/*/output/
+
+# Creted by npm(1)
+/node_modules/
+/npm-debug.log
+
+# Created by the build script
+/index.html
+/hack.html
+
+# Created by the test script
+/test.html
+/test.out
+
+# Draft tiddlers
+Draft of *.tid
