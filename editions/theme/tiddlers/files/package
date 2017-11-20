@@ -12,7 +12,7 @@
     "nodemon": "^1.12.1"
   },
   "scripts": {
-    "build": "node index.js editions/theme --build && node index.js editions/hack --build",
+    "build": "hack/buildinfo && node index.js editions/theme --build && node index.js editions/hack --build",
     "test": "node index.js editions/test --build 2>&1 | tee test.out; ! grep -q ^Failures: test.out",
     "hack": "nodemon index.js editions/hack --server 8081"
   },
@@ -26,6 +26,7 @@
     "theme"
   ],
   "author": "Uwe Stuehler",
+  "authorHomepage": "https://ustuehler.github.io",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/ustuehler/tw5-theme/issues"
