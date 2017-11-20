@@ -2,7 +2,7 @@
 
 cd "$(dirname "$0")/.."
 
-EDITION_PATH='editions/github'
+EDITION_PATH="${1:-editions/theme}"
 
 tiddler_text() {
   awk '!body && /^$/ { body = 1; next; } body { print; }'
