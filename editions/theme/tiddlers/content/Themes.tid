@@ -1,0 +1,20 @@
+title: Themes
+list: material
+
+Featured themes:
+
+<ul>
+<$list filter="[list[]]">
+<li><a target="_blank" href={{!!url}}><$view field="caption"/></a></li>
+</$list>
+</ul>
+
+<$set name="author" value={{package.json##author}}>
+<$set name="authorHomepage" value={{package.json##authorHomepage}}>
+
+All themes authored by <a target="_blank" href=<<authorHomepage>>><<author>></a>:
+
+<<list-links '[all[tiddlers]prefix[$:/themes/]field:author<author>]'>>
+
+</$set>
+</$set>

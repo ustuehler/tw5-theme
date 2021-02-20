@@ -1,0 +1,6 @@
+title: material
+caption: Material Edition
+url: https://ustuehler.github.io/material
+link: <a target="_blank" href={{!!url}}>{{!!caption}}</a>
+
+{{!!url}}
