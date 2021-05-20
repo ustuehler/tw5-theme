@@ -1,0 +1,21 @@
+{
+  "description": "ustuehler/tw5-theme tests",
+  "plugins": [
+    "tiddlywiki/jasmine",
+    "ustuehler/mdc",
+    "ustuehler/mdc-web",
+    "ustuehler/mdc-web-cdn",
+    "ustuehler/muuri"
+  ],
+  "themes": [
+    "tiddlywiki/vanilla",
+    "tiddlywiki/snowwhite",
+    "ustuehler/material"
+  ],
+  "build": {
+    "index": [
+      "--output",".",
+      "--rendertiddler","$:/core/save/all","test.html","text/plain"
+    ]
+  }
+}
