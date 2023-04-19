@@ -9,7 +9,7 @@
     "tw5-plugin": "git+https://github.com/ustuehler/tw5-plugin.git"
   },
   "devDependencies": {
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.19.4"
   },
   "scripts": {
     "build": "hack/buildinfo && node index.js editions/theme --build && node index.js editions/hack --build",
